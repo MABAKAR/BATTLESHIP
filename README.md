@@ -1,6 +1,6 @@
 NOTE D'INTENTION
 ================
-# LIEN POUR TESTER: https://mabakar.github.io/BATTLESHIP/
+### LIEN POUR TESTER: https://mabakar.github.io/BATTLESHIP/
 Le code est organisé autour de différents composants (objet) les principaux étant le "jeu" (fichier game.js), et les joueurs (fichier player.js et computer.js), chacun des objets est accessible dans le scope global.
 
 au chargement de la page on invoque la méthode init de l'objet game. Ce dernier contient et gère "l'état" du jeu (qui sont les adversaires, à quelle phase de jeu en est-on, à qui est-ce de jouer, etc...) et permet (appelle la fonction), ou ne permet pas (ne fait rien) les actions des différents joueurs.
